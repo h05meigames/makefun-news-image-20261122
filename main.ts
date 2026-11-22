@@ -15,7 +15,9 @@
 //
 // Determinism: entry.png is a fixed asset in this repository, so both
 // grader runs copy identical bytes. Verified locally by running main.ts
-// twice and comparing sha256 (see HANDOFF.md).
+// twice and comparing sha256 (see HANDOFF.md). The committed entry.png is
+// 164,752 bytes with sha256
+// f4f8a200bd3740764302f4f987d9c0172b7ccdfbb9b56f9991fea009d2bb2eeb.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
